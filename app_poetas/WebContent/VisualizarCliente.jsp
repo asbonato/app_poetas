@@ -43,30 +43,37 @@
                 <div id="main" class="container">
                     <h3 class="page-header">Visualizar Cliente #${cliente.id }</h3>
                     <div class="row">
-                        <div class="col-md-12">
-                            <p><strong>Nome</strong>
-                            </p>
-                            <p>
-                                ${cliente.nome }
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p><strong>Celular</strong>
-                            </p>
-                            <p>
-                                ${cliente.fone }
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <p><strong>E-Mail</strong>
-                            </p>
-                            <p>
-                                ${cliente.email }
-                            </p>
-                        </div>
-                    </div>
+                    		<div class="col-md-2">
+							<img alt="?" src="img/${cliente.foto}.jpg" class="img-responsive">
+						</div>
+						<div class="col-md-10">
+						<div class="row">
+	                        <div class="col-md-12">
+	                            <p><strong>Nome</strong>
+	                            </p>
+	                            <p>
+	                                ${cliente.nome }
+	                            </p>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                        <div class="col-md-6">
+	                            <p><strong>Celular</strong>
+	                            </p>
+	                            <p>
+	                                ${cliente.fone }
+	                            </p>
+	                        </div>
+	                        <div class="col-md-6">
+	                            <p><strong>E-Mail</strong>
+	                            </p>
+	                            <p>
+	                                ${cliente.email }
+	                            </p>
+	                        </div>
+	                    </div>
+	                </div>
+	                </div>
                     <hr />
                     <div id="actions" class="row">
                         <div class="col-md-12">

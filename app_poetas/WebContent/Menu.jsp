@@ -9,17 +9,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp">cerveja.biz</a>
+                <a class="navbar-brand" href="index.jsp">Poetas</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="controller.do?command=ListarClientesReiniciar">Clientes</a>
-                    </li>
-                    <li><a href="#">Marcas</a>
-                    </li>
-                    <li><a href="#">Estilos</a>
-                    </li>
-                    <li><a href="#">Países</a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastro</a>
+                    		<ul class="dropdown-menu">
+  						  <li><a class="dropdown-item" href="controller.do?command=ListarClientesReiniciar">Clientes</a></li>
+						</ul>
                     </li>
                 </ul>
             </div>
