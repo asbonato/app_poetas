@@ -20,7 +20,7 @@ public class ServletController extends HttpServlet {
 		try {
 			request.setCharacterEncoding("UTF-8");
 			response.setCharacterEncoding("UTF-8");
-			Command comando = (Command)Class.forName("command."+request.getParameter("command")).newInstance();
+			Command comando = (Command)Class.forName("br.usjt.arq.command."+request.getParameter("command")).newInstance();
 			comando.executa(request, response);
 		} catch (InstantiationException | IllegalAccessException
 				| ClassNotFoundException e) {
